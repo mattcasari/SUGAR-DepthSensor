@@ -1,0 +1,5 @@
+# do not check in
+.venv
+.mypy_cache
+.pytest_cache
+typings
