@@ -16,8 +16,8 @@ import gc
 
 gc.collect()
 
-ssid = "Ursa Major"
-password = "H00t&Bunbun491"
+ssid = "REPLACE_WITH_YOUR_SSID"
+password = "REPLACE_WITH_YOUR_PASSWORD"
 
 station = network.WLAN(network.STA_IF)
 
@@ -30,5 +30,4 @@ while station.isconnected() == False:
 print("Connection successful")
 print(station.ifconfig())
 
-global led
 led = Pin(2, Pin.OUT)
